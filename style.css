@@ -1,0 +1,38 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+
+	font-size: 80px;
+}
+
+.button-div{
+
+	max-width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+    
+}
+
+#button-box{
+
+	max-width: 50%;
+	border: teal solid 1px;
+	border-radius: 20px;
+	padding: 15px;
+	background-color: teal;
+	color: #fff;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+#button-box:hover{
+	transform: scaleX(1.1);
+}
